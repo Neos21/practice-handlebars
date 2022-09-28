@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practice Handlebars</title>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.runtime.js"></script>
+    <script src="greet.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const greetTemplate = Handlebars.templates['greet-template.hbs'];
+        document.getElementById('output').innerHTML = greetTemplate({
+          name: 'Neos21',
+          greet: 'Hello World'
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="output"></div>
+  </body>
+</html>

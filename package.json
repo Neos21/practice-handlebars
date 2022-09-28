@@ -1,0 +1,26 @@
+{
+  "name": "practice-handlebars",
+  "description": "Practice Handlebars",
+  "scripts": {
+    "start": "open ./dist/index.html",
+    "build": "handlebars ./src/greet-template.hbs -f ./dist/greet.js",
+    "handlebars": "handlebars"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/practice-handlebars#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/practice-handlebars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/practice-handlebars/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
+  "devDependencies": {
+    "handlebars": "4.7.7"
+  }
+}
